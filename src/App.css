@@ -1,38 +1,59 @@
+* {
+  background: #292b31;
+}
 .App {
+  font-family: "Bungee Hairline", sans-serif;
   text-align: center;
+  color: #de2549;
+  margin: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo_type {
+  font-family: "Bungee Hairline", sans-serif;
+  letter-spacing: 0.5rem;
+  color: #de2549;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search-box {
+  border: solid 0.5px rgba(255, 255, 255, 0.7);
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  padding-left: 5px;
+}
+input[type="text"] {
+  color: #de2549;
+  padding-left: 5px;
+  padding: 10px;
+}
+.submit-button {
+  border: 0px;
+  padding: 10px;
+  background-color: #de2549;
+}
+input[type="submit"] {
   color: white;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  font-size: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-icon {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.description {
+  font-weight: 300;
+  font-size: 1.5rem;
 }
