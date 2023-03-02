@@ -15,6 +15,9 @@ function App() {
         </h2>
       </div>
       <Weather />
+      <a id="github_link" href="https://github.com/sofiacif/weather-react">
+        <p id="github_text">Github repository</p>
+      </a>
     </div>
   );
 }

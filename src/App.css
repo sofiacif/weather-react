@@ -57,3 +57,17 @@ p {
   font-weight: 300;
   font-size: 1.5rem;
 }
+#github_link {
+  text-decoration: none;
+}
+
+#github_text {
+  font-size: 1em;
+  margin-top: 50%;
+  color: white;
+  font-weight: bold;
+}
+#github_text:hover {
+  color: #de2549;
+  font-weight: bolder;
+}
